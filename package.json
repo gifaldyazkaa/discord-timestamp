@@ -1,0 +1,32 @@
+{
+    "name": "personal-vue-template",
+    "description": "",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "parcel src/index.html --host=0.0.0.0 --port=8080",
+        "generate": "parcel build src/index.html",
+        "preview": "serve -sp 8080 dist",
+        "lint": "prettier -c .",
+        "prepare": "husky install"
+    },
+    "author": {
+        "name": "Gifaldy Azka",
+        "email": "me@falcxxdev.ml",
+        "url": "https://falcxxdev.ml"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@parcel/core": "2.7.0",
+        "@parcel/transformer-sass": "2.7.0",
+        "@parcel/transformer-vue": "2.7.0",
+        "husky": "8.0.1",
+        "parcel": "2.7.0",
+        "prettier": "2.7.1",
+        "serve": "14.0.1"
+    },
+    "dependencies": {
+        "nprogress": "0.2.0",
+        "vue": "3.2.39",
+        "vue-router": "4.1.5"
+    }
+}
