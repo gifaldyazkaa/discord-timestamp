@@ -1,0 +1,13 @@
+@import './styles/reset';
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700&display=swap');
+html {
+    margin: 0;
+}
+body {
+    background: #1a202c;
+    color: #efefef;
+    font-family: 'Lexend', sans-serif;
+    p {
+        margin: 1px;
+    }
+}
