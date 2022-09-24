@@ -4,6 +4,7 @@ specifiers:
   '@parcel/core': 2.7.0
   '@parcel/transformer-sass': 2.7.0
   '@parcel/transformer-vue': 2.7.0
+  '@vuepic/vue-datepicker': ^3.4.8
   husky: 8.0.1
   nprogress: 0.2.0
   parcel: 2.7.0
@@ -12,6 +13,7 @@ specifiers:
   vue: 3.2.39
 
 dependencies:
+  '@vuepic/vue-datepicker': 3.4.8_vue@3.2.39
   nprogress: 0.2.0
   vue: 3.2.39
 
@@ -1186,6 +1188,16 @@ packages:
     resolution: {integrity: sha512-D3dl2ZB9qE6mTuWPk9RlhDeP1dgNRUKC3NJxji74A4yL8M2MwlhLKUC/49WHjrNzSPug58fWx/yFbaTzGAQSBw==}
     dev: false
 
+  /@vuepic/vue-datepicker/3.4.8_vue@3.2.39:
+    resolution: {integrity: sha512-nbuMA7IgjtT99LqcjSTSUcl7omTZSB+7vYSWQ9gQm31Frm/1wn54fT1Q0HaRD9nHXX982AACbqeND4K80SKONw==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      vue: '>=3.2.0'
+    dependencies:
+      date-fns: 2.29.3
+      vue: 3.2.39
+    dev: false
+
   /@zeit/schemas/2.21.0:
     resolution: {integrity: sha512-/J4WBTpWtQ4itN1rb3ao8LfClmVcmz2pO6oYb7Qd4h7VSqUhIbJIvrykz9Ew1WMg6eFWsKdsMHc5uPbFxqlCpg==}
     dev: true
@@ -1702,6 +1714,11 @@ packages:
 
   /csstype/2.6.20:
     resolution: {integrity: sha512-/WwNkdXfckNgw6S5R125rrW8ez139lBHWouiBvX8dfMFtcn6V81REDqnH7+CRpRipfYlyU1CmOnOxrmGcFOjeA==}
+    dev: false
+
+  /date-fns/2.29.3:
+    resolution: {integrity: sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==}
+    engines: {node: '>=0.11'}
     dev: false
 
   /debug/2.6.9:
