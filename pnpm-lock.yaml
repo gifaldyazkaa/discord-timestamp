@@ -4,7 +4,7 @@ specifiers:
   '@parcel/core': 2.7.0
   '@parcel/transformer-sass': 2.7.0
   '@parcel/transformer-vue': 2.7.0
-  '@vuepic/vue-datepicker': ^3.4.8
+  '@vuepic/vue-datepicker': 3.4.8
   husky: 8.0.1
   moment: 2.29.4
   nprogress: 0.2.0
