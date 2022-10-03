@@ -3,7 +3,7 @@
         <div class="app__content">
             <div class="app__title">
                 <h1>🕑 Discord Timestamp</h1>
-                <p>Tools to create discord-formatted timestamp</p>
+                <p class="app__description">Tools to create discord-formatted timestamp</p>
             </div>
             <div class="app__input">
                 <h3 class="app__input_label">📅 Date & Time</h3>
@@ -38,6 +38,7 @@
 <script lang="ts">
 import Datepicker from '@vuepic/vue-datepicker';
 import '@vuepic/vue-datepicker/dist/main.css';
+import NProgress from 'nprogress';
 import m from 'moment';
 
 export default {
@@ -91,6 +92,8 @@ export default {
         },
     },
     mounted() {
+        NProgress.start();
+        window.addEventListener('load', () => NProgress.done());
         if (this.format === 'f') {
             const formatted = `<t:${this.date!.unix()}:f>`;
             this.out = m(this.date).format('D MMMM YYYY h:mm');
@@ -106,7 +109,7 @@ export default {
     &__box {
         position: absolute;
         width: 100vh;
-        height: 50vh;
+        // height: 50vh;
         left: 50%;
         top: 50%;
         background: #262f41;
@@ -123,6 +126,9 @@ export default {
     &__title {
         margin-top: 2rem;
         // margin-left: 5rem;
+        & .app__description {
+            margin-top: 0.5rem;
+        }
     }
     &__input {
         margin-top: 1.3rem;
