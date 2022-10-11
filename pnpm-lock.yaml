@@ -4,7 +4,7 @@ specifiers:
   '@parcel/core': 2.7.0
   '@parcel/transformer-sass': 2.7.0
   '@parcel/transformer-vue': 2.7.0
-  '@vuepic/vue-datepicker': 3.5.0
+  '@vuepic/vue-datepicker': 3.5.2
   husky: 8.0.1
   moment: 2.29.4
   nprogress: 0.2.0
@@ -14,7 +14,7 @@ specifiers:
   vue: 3.2.40
 
 dependencies:
-  '@vuepic/vue-datepicker': 3.5.0_vue@3.2.40
+  '@vuepic/vue-datepicker': 3.5.2_vue@3.2.40
   moment: 2.29.4
   nprogress: 0.2.0
   vue: 3.2.40
@@ -1190,8 +1190,8 @@ packages:
     resolution: {integrity: sha512-0PLQ6RUtZM0vO3teRfzGi4ltLUO5aO+kLgwh4Um3THSR03rpQWLTuRCkuO5A41ITzwdWeKdPHtSARuPkoo5pCQ==}
     dev: false
 
-  /@vuepic/vue-datepicker/3.5.0_vue@3.2.40:
-    resolution: {integrity: sha512-YAQcZqSrOdPvZ5EB4yOY6jfR/tqdHMpGD7iKBbKDgjG/e7eBoEepT+BKirk4jIDCYaRv1VYFV1mkZelvuPrsgw==}
+  /@vuepic/vue-datepicker/3.5.2_vue@3.2.40:
+    resolution: {integrity: sha512-kaMqs6Bf3xXeIwHY/NLTTJ2WznROdkFEbKj5eYq7u6AkZhg9l/+U7aF+JhfncLIpPAIil3+V4nej2gxPewKiiQ==}
     engines: {node: '>=14'}
     peerDependencies:
       vue: '>=3.2.0'
