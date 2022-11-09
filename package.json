@@ -28,6 +28,6 @@
         "@vuepic/vue-datepicker": "3.5.3",
         "moment": "2.29.4",
         "nprogress": "0.2.0",
-        "vue": "3.2.42"
+        "vue": "3.2.43"
     }
 }
