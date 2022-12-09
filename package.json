@@ -16,16 +16,16 @@
     },
     "license": "MIT",
     "devDependencies": {
-        "@parcel/core": "2.8.0",
-        "@parcel/transformer-sass": "2.8.0",
-        "@parcel/transformer-vue": "2.8.0",
+        "@parcel/core": "2.8.1",
+        "@parcel/transformer-sass": "2.8.1",
+        "@parcel/transformer-vue": "2.8.1",
         "husky": "8.0.2",
-        "parcel": "2.8.0",
-        "prettier": "2.8.0",
+        "parcel": "2.8.1",
+        "prettier": "2.8.1",
         "serve": "14.1.2"
     },
     "dependencies": {
-        "@vuepic/vue-datepicker": "3.5.3",
+        "@vuepic/vue-datepicker": "3.6.1",
         "moment": "2.29.4",
         "nprogress": "0.2.0",
         "vue": "3.2.45"
