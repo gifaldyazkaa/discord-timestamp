@@ -19,13 +19,13 @@
         "@parcel/core": "2.8.2",
         "@parcel/transformer-sass": "2.8.2",
         "@parcel/transformer-vue": "2.8.2",
-        "husky": "8.0.2",
+        "husky": "8.0.3",
         "parcel": "2.8.2",
-        "prettier": "2.8.1",
+        "prettier": "2.8.2",
         "serve": "14.1.2"
     },
     "dependencies": {
-        "@vuepic/vue-datepicker": "3.6.3",
+        "@vuepic/vue-datepicker": "3.6.4",
         "moment": "2.29.4",
         "nprogress": "0.2.0",
         "vue": "3.2.45"
