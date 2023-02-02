@@ -25,9 +25,9 @@
         "serve": "14.2.0"
     },
     "dependencies": {
-        "@vuepic/vue-datepicker": "3.6.5",
+        "@vuepic/vue-datepicker": "3.6.7",
         "moment": "2.29.4",
         "nprogress": "0.2.0",
-        "vue": "3.2.45"
+        "vue": "3.2.47"
     }
 }
