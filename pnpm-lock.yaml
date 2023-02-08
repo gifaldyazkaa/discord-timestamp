@@ -4,17 +4,17 @@ specifiers:
   '@parcel/core': 2.8.3
   '@parcel/transformer-sass': 2.8.3
   '@parcel/transformer-vue': 2.8.3
-  '@vuepic/vue-datepicker': 3.6.7
+  '@vuepic/vue-datepicker': 3.6.8
   husky: 8.0.3
   moment: 2.29.4
   nprogress: 0.2.0
   parcel: 2.8.3
-  prettier: 2.8.3
+  prettier: 2.8.4
   serve: 14.2.0
   vue: 3.2.47
 
 dependencies:
-  '@vuepic/vue-datepicker': 3.6.7_vue@3.2.47
+  '@vuepic/vue-datepicker': 3.6.8_vue@3.2.47
   moment: 2.29.4
   nprogress: 0.2.0
   vue: 3.2.47
@@ -25,7 +25,7 @@ devDependencies:
   '@parcel/transformer-vue': 2.8.3_@parcel+core@2.8.3
   husky: 8.0.3
   parcel: 2.8.3
-  prettier: 2.8.3
+  prettier: 2.8.4
   serve: 14.2.0
 
 packages:
@@ -1103,8 +1103,8 @@ packages:
     resolution: {integrity: sha512-BHGyyGN3Q97EZx0taMQ+OLNuZcW3d37ZEVmEAyeoA9ERdGvm9Irc/0Fua8SNyOtV1w6BS4q25wbMzJujO9HIfQ==}
     dev: false
 
-  /@vuepic/vue-datepicker/3.6.7_vue@3.2.47:
-    resolution: {integrity: sha512-+THZAo+9KlPZGEE9MiCSkGVf8RW3rFFCrq060Kv7GCfWfSrxFSQIUhsTYc3P8hjtOkuaj31S5SdjmBa0tqH8Pg==}
+  /@vuepic/vue-datepicker/3.6.8_vue@3.2.47:
+    resolution: {integrity: sha512-9c6gfy2SYHunyH36m12NzLy+6fccTFf58zG/VAVo5inVedVisz3M0grw7fw77uMP1531MtIibmeq9C5SNUXxkw==}
     engines: {node: '>=14'}
     peerDependencies:
       vue: '>=3.2.0'
@@ -2356,8 +2356,8 @@ packages:
       posthtml-render: 3.0.0
     dev: true
 
-  /prettier/2.8.3:
-    resolution: {integrity: sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==}
+  /prettier/2.8.4:
+    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
